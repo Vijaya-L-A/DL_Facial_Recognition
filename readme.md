@@ -19,7 +19,7 @@ This Project uses Opencv's [OpenFace](https://cmusatyalab.github.io/openface/), 
     
      _Manual Addition:_   
  
-    1) Create a new folder with class name as the directory in dataset folder eg: Krishna
+    1) Create a new folder with class name as the directory in dataset folder eg: Vijaya
     2) Add images of the New Person into directory ( make sure there is only one person in the image )
 
 NOTE: You need atleast two classes in the dataset folder to proceed with training
@@ -36,4 +36,4 @@ NOTE: You need atleast two classes in the dataset folder to proceed with trainin
 
 Optionally you can pass in the argument --unauth <CLASS_NAME> to sound alarm when that particular person is in the frame
 
-    `python recognize_video.py --unauth Krishna`
+    `python recognize_video.py --unauth Vijaya`
